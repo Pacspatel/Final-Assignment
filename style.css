@@ -311,3 +311,61 @@ form {
     font-family: "Trebuchet MS", Optima;
 }
  
+
+***** PROJECTS SECTION *****/
+
+.Projects_Section {
+background-color: #fff3e0;
+padding: 30px 20px;
+}
+
+.Project_Container {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+gap: 25px;
+max-width: 1200px;
+margin: auto;
+}
+
+.Project_Card {
+background-color: white;
+width: 250px;
+min-height: 430px;
+padding: 15px;
+border-radius: 8px;
+box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+text-align: center;
+}
+
+.Project_Card h2 {
+color: #7b3f00;
+font-family: "Trebuchet MS", Optima;
+}
+
+.Project_Card img {
+width: 100%;
+height: 160px;
+object-fit: cover;
+border-radius: 8px;
+}
+
+.Project_Card p {
+font-size: 16px;
+text-align: left;
+padding-left: 5px;
+padding-right: 5px;
+}
+
+.Project_Tech {
+color: #7b3f00;
+}
+
+/* Small screens */
+@media screen and (max-width: 576px) {
+.Project_Card {
+width: 90%;
+}
+}
+
+/***** END OF PROJECTS SECTION *****/

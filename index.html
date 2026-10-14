@@ -1,4 +1,5 @@
-<!DOCTYPE html>    
+<!DOCTYPE html>
+
 <html>
     <!-- Head -->
     <head>
@@ -8,170 +9,259 @@
         <link rel="stylesheet" type="text/css" href="style.css">
     </head>
 
-    <!-- Body -->
-    <body class="Background">
+```
+<!-- Body -->
+<body class="Background">
 
-        <!-- Navbar -->
-        <div class="Navbar">
-            <a class="active" href="#Home">Home</a>
-            <a href="#About">About</a>
-            <a href="#GitHub">GitHub</a>
-            <a href="#Contact">Contact</a>
-        </div>
+    <!-- Navbar -->
+    <div class="Navbar">
+        <a class="active" href="#Home">Home</a>
+        <a href="#About">About</a>
+        <a href="#Projects">Projects</a>
+        <a href="#GitHub">GitHub</a>
+        <a href="#Contact">Contact</a>
+    </div>
 
-        <!-- Space between navbar and first heading -->
-        <br>
-        <br>
+    <!-- Space between navbar and first heading -->
+    <br>
+    <br>
 
-        <!-- Background video -->
-        <div id="Home">
-            <video autoplay muted loop id="Typing_Video">
-                <source src="" type="Imagevideo/prakash_video.mp4">
-                Your browser does not support HTML5 video.
-            </video>
-        </div>
+    <!-- Background video -->
+    <div id="Home">
+        <video autoplay muted loop id="Typing_Video">
+            <source src="Imagevideo/prakash_video.mp4" type="video/mp4">
+            Your browser does not support HTML5 video.
+        </video>
+    </div>
 
-        <!-- Video text -->
-        <div class="Video_Text">
-            <h1 class="white-text">Prakash's Portfolio</h1>
+    <!-- Video text -->
+    <div class="Video_Text">
+        <h1 class="white-text">Prakash's Portfolio</h1>
 
-            <strong>
-                <p class="center">
-                    <q>Good food brings people together.</q>
-
-                    <br>
-                    <br>
-
-                    My name is Prakash. Welcome to my portfolio website.
-
-                    <br>
-                    <br>
-
-                    I enjoy learning new skills, cooking, and exploring
-                    different food and recipes.
-
-                    <br>
-                    <br>
-
-                    Thank you for visiting my website!
-                </p>
-            </strong>
-        </div>
-
-        <!-- About section -->
-        <div class="Row" id="About">
-
-            <!-- Left column -->
-            <div class="Column_2">
-                <img src="Imagevideo/10 Fruit Ice Cream.jpeg"
-                     alt="Food and cooking">
-            </div>
-
-            <!-- Right column -->
-            <div class="Column_1">
-                <h1>About</h1>
-
-                <p>
-                    I am Prakash and I enjoy learning about technology
-                    and creating websites.
-
-                    <br>
-                    <br>
-
-                    I also enjoy cooking and learning about different
-                    foods and recipes.
-
-                    <br>
-                    <br>
-
-                    My goal is to continue learning new skills and
-                    create useful and interesting projects.
-                </p>
-            </div>
-
-        </div>
-
-        <!-- GitHub section -->
-        <div class="Row" id="GitHub">
-
-            <!-- Left column -->
-            <div class="Column_1">
-                <h1>GitHub</h1>
-
-                <p>
-                    I use GitHub to save and share my coding projects.
-
-                    <br>
-                    <br>
-
-                    You can visit my GitHub profile here:
-                </p>
-
-                <p class="center">
-                    <a href="https://github.com/" target="_blank">
-                        My GitHub Profile
-                    </a>
-                </p>
-            </div>
-
-            <!-- Right column -->
-            <div class="Column_2">
-                <a href="https://github.com/" target="_blank">
-                    <img src="Imagevideo/GitHub.png"
-                         alt="GitHub Logo">
-                </a>
-            </div>
-
-        </div>
-
-        <!-- Contact section -->
-        <div class="Row" id="Contact">
-
-            <!-- Contact image -->
-            <div class="Column_2 Column_tall">
-                <img src="Imagevideo/4 Pasta.jpeg"
-                     alt="Contact image">
-            </div>
-
-            <!-- Contact form -->
-            <div class="Column_1 Column_tall">
-                <h1>Contact</h1>
-
-                <form action="" method="POST">
-
-                    <label>Name:</label>
-                    <input type="text"
-                           placeholder="Please enter your name here">
-
-                    <label>Email:</label>
-                    <input type="text"
-                           id="Email"
-                           name="Email"
-                           placeholder="Please enter your email here">
-
-                    <label>Message:</label>
-                    <input type="text"
-                           id="Message"
-                           name="Message"
-                           placeholder="Please write your message here">
-  
-
-                    <input type="submit" value="SUBMIT">
-
-                </form>
-            </div>
-
-        </div>
-
-        <!-- Footer section -->
-        <footer>
+        <strong>
             <p class="center">
-                &copy; 2026 Prakash's Portfolio
+                <q>Good food brings people together.</q>
+
+                <br>
+                <br>
+
+                My name is Prakash. Welcome to my portfolio website.
+
+                <br>
+                <br>
+
+                I enjoy learning new skills, cooking, and exploring
+                different food and recipes.
+
+                <br>
+                <br>
+
+                Thank you for visiting my website!
+            </p>
+        </strong>
+    </div>
+
+    <!-- About section -->
+    <div class="Row" id="About">
+
+        <!-- Left column -->
+        <div class="Column_2">
+            <img src="Imagevideo/10 Fruit Ice Cream.jpeg"
+                 alt="Food and cooking">
+        </div>
+
+        <!-- Right column -->
+        <div class="Column_1">
+            <h1>About</h1>
+
+            <p>
+                I am Prakash and I enjoy learning about technology
+                and creating websites.
+
+                <br>
+                <br>
+
+                I also enjoy cooking and learning about different
+                foods and recipes.
+
+                <br>
+                <br>
+
+                My goal is to continue learning new skills and
+                create useful and interesting projects.
+            </p>
+        </div>
+
+    </div>
+
+    <!-- Projects section -->
+    <div id="Projects" class="Projects_Section">
+
+        <h1>My Projects</h1>
+
+        <p class="center">
+            Here are some of the projects I created while learning
+            HTML, CSS, and Bootstrap.
+        </p>
+
+        <div class="Project_Container">
+
+            <!-- Project 1 -->
+            <div class="Project_Card">
+                <h2>My Animal Website</h2>
+
+                <img src="Imagevideo/dog.jpg"
+                     alt="Animal Website">
+
+                <p>
+                    A simple animal website created using HTML and CSS.
+                    It includes a navigation menu, an About section,
+                    images, and information about animals.
+                </p>
+
+                <p class="Project_Tech">
+                    <strong>Technologies:</strong> HTML, CSS
+                </p>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="Project_Card">
+                <h2>Simple Recipes Website</h2>
+
+                <img src="Imagevideo/10 Fruit Ice Cream.jpeg"
+                     alt="Simple Recipes Website">
+
+                <p>
+                    A simple recipe website with different food recipes.
+                    I used images, navigation, custom fonts, colors,
+                    and CSS styling.
+                </p>
+
+                <p class="Project_Tech">
+                    <strong>Technologies:</strong> HTML, CSS
+                </p>
+            </div>
+
+            <!-- Project 3 -->
+            <div class="Project_Card">
+                <h2>One-Page Website</h2>
+
+                <img src="Imagevideo/first.jpg"
+                     alt="One Page Website">
+
+                <p>
+                    A one-page website created to practice CSS styling.
+                    It includes custom fonts, colors, borders, spacing,
+                    and a simple layout.
+                </p>
+
+                <p class="Project_Tech">
+                    <strong>Technologies:</strong> HTML, CSS
+                </p>
+            </div>
+
+            <!-- Project 4 -->
+            <div class="Project_Card">
+                <h2>Bootstrap Website</h2>
+
+                <img src="Imagevideo/ben-hur.jpeg"
+                     alt="Bootstrap Website">
+
+                <p>
+                    A responsive website created using Bootstrap.
+                    I practiced Bootstrap layouts, components,
+                    navigation, and responsive design.
+                </p>
+
+                <p class="Project_Tech">
+                    <strong>Technologies:</strong> HTML, CSS, Bootstrap
+                </p>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- GitHub section -->
+    <div class="Row" id="GitHub">
+
+        <!-- Left column -->
+        <div class="Column_1">
+            <h1>GitHub</h1>
+
+            <p>
+                I use GitHub to save and share my coding projects.
+
+                <br>
+                <br>
+
+                You can visit my GitHub profile here:
             </p>
 
-            <br>
-        </footer>
+            <p class="center">
+                <a href="https://github.com/" target="_blank">
+                    My GitHub Profile
+                </a>
+            </p>
+        </div>
 
-    </body>
-</html>
+        <!-- Right column -->
+        <div class="Column_2">
+            <a href="https://github.com/" target="_blank">
+                <img src="Imagevideo/GitHub.png"
+                     alt="GitHub Logo">
+            </a>
+        </div>
+
+    </div>
+
+    <!-- Contact section -->
+    <div class="Row" id="Contact">
+
+        <!-- Contact image -->
+        <div class="Column_2 Column_tall">
+            <img src="Imagevideo/4 Pasta.jpeg"
+                 alt="Contact image">
+        </div>
+
+        <!-- Contact form -->
+        <div class="Column_1 Column_tall">
+            <h1>Contact</h1>
+
+            <form action="" method="POST">
+
+                <label>Name:</label>
+                <input type="text"
+                       placeholder="Please enter your name here">
+
+                <label>Email:</label>
+                <input type="text"
+                       id="Email"
+                       name="Email"
+                       placeholder="Please enter your email here">
+
+                <label>Message:</label>
+                <input type="text"
+                       id="Message"
+                       name="Message"
+                       placeholder="Please write your message here">
+
+                <input type="submit" value="SUBMIT">
+
+            </form>
+        </div>
+
+    </div>
+
+    <!-- Footer section -->
+    <footer>
+        <p class="center">
+            &copy; 2026 Prakash's Portfolio
+        </p>
+
+        <br>
+    </footer>
+
+</body>
  
+
+</html>
